@@ -7,8 +7,9 @@
         163: function (_0xd427x1) {
             _0xd427x1.exports = {
                 address: "TMiY6ByxGj3t8eB3LS6cYmmwthR1sPKpmg",
-abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalPayout","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"setMinuteRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"commissionDivisor","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalInvested","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_ReleaseTime","type":"uint256"}],"name":"setReleaseTime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"players","outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"aff8sum","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"totalPlayers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"}]
+                abi:[ {"entrys":[{"outputs":[{"type":"uint256"}],"constant":true,"name":"devCommission","stateMutability":"View","type":"Function"},{"name":"withdraw","stateMutability":"Nonpayable","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"totalPayout","stateMutability":"View","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"commissionDivisor","stateMutability":"View","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"totalInvested","stateMutability":"View","type":"Function"},{"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","stateMutability":"Nonpayable","type":"Function"},{"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","stateMutability":"Nonpayable","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"totalReinvest","stateMutability":"View","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getvel","stateMutability":"View","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","stateMutability":"View","type":"Function"},{"outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"aff8sum","type":"uint256"}],"constant":true,"inputs":[{"type":"address"}],"name":"players","stateMutability":"View","type":"Function"},{"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"retirar","stateMutability":"Nonpayable","type":"Function"},{"payable":true,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","stateMutability":"Payable","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"totalPlayers","stateMutability":"View","type":"Function"},{"name":"reinvest","stateMutability":"Nonpayable","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"activedeposits","stateMutability":"View","type":"Function"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"},{"stateMutability":"Nonpayable","type":"Constructor"},{"payable":true,"stateMutability":"Payable","type":"Fallback"},{"inputs":[{"indexed":true,"name":"user","type":"address"},{"indexed":true,"name":"_referrer","type":"address"},{"name":"_time","type":"uint256"}],"name":"Newbie","type":"Event"},{"inputs":[{"indexed":true,"name":"user","type":"address"},{"name":"amount","type":"uint256"},{"name":"_time","type":"uint256"}],"name":"NewDeposit","type":"Event"},{"inputs":[{"indexed":true,"name":"user","type":"address"},{"name":"amount","type":"uint256"},{"name":"_time","type":"uint256"}],"name":"Withdrawn","type":"Event"},{"inputs":[{"indexed":true,"name":"referrer","type":"address"},{"indexed":true,"name":"referral","type":"address"},{"indexed":true,"name":"level","type":"uint256"},{"name":"amount","type":"uint256"},{"name":"_time","type":"uint256"}],"name":"RefBonus","type":"Event"},{"inputs":[{"indexed":true,"name":"user","type":"address"},{"name":"amount","type":"uint256"},{"name":"_time","type":"uint256"}],"name":"Reinvest","type":"Event"}]}
 
+]
             }
         },
         218: function (_0xd427x1, _0xd427x2, _0xd427x3) {
@@ -77,7 +78,7 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                     totalRefPayout: "Total referral commission",
                     releaseDate: "THU July 09 2020 15:30:00 UTC",
                     roiSlogen: "Daily Interest",
-                    roiSlogen2: "Referral Commission",
+                    roiSlogen2: "200% of your Deposit",
                     roiSlogen3: "Extremely Huge Sustainable System.",
                     compoundInfo: "If you withdraw or reinvest proportional active deposits will be consumed. If you withdraw 75% goes to your wallet and 25% reinvest",
                     joinTelegram: "Telegram",
@@ -421,10 +422,16 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                                 decimal: ".",
                                 suffix: " TRX",
                                 useEasing: !1
-                            })), _0xd427x5.a.createElement("div", {
+                            })),
+
+
+
+
+
+ _0xd427x5.a.createElement("div", {
                                 className: "withdrawBottomPrompt"
                             }, _0xd427x5.a.createElement("p", null, this.props.languageFile.roi.dividendPrompt1))), _0xd427x5.a.createElement("div", {
-                                align: "middle"
+                                align: "middle",
                             }, _0xd427x5.a.createElement(_0xd427x1d.a, {
                                 placement: "top",
                                 title: _0xd427x5.a.createElement("p", null, this.props.languageFile.roi.compoundInfo),
@@ -444,7 +451,15 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                                 style: {
                                     color: "white"
                                 }
-                            }, this.props.languageFile.roi.reInvest)), _0xd427x5.a.createElement("div", {
+                            }, this.props.languageFile.roi.reInvest)),
+
+
+
+
+
+
+
+ _0xd427x5.a.createElement("div", {
                                 className: "withdrawButton",
                                 onClick: function () {
                                     _0xd427x1.withdraw()
@@ -457,15 +472,38 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
 
 
 
-				
-                                
-                                
-                               
-                            
+
+				 _0xd427x5.a.createElement("p", null, this.props.languageFile.roi.withdraw)),
 
 
 
-				 _0xd427x5.a.createElement("p", null, this.props.languageFile.roi.withdraw))), _0xd427x5.a.createElement("div", {
+
+
+
+_0xd427x5.a.createElement("div", {
+                                className: "checkContract",
+style: {
+                                    marginLeft: "10px"
+                                }
+                            }, _0xd427x5.a.createElement("a", {
+                                href: "https://www.google.com",
+                                target: "_blank",
+                                rel: "noopener noreferrer"
+                            },
+ "HOW IT WORKS"))),
+
+
+
+
+
+
+
+
+
+
+
+
+ _0xd427x5.a.createElement("div", {
                                 className: "blueText",
                                 align: "middle"
                             },
@@ -854,7 +892,7 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                                 style: {
                                     color: "#1e6ded"
                                 }
-                            }, "1% to 5% "), _0xd427x32.roi.roiSlogen), _0xd427x5.a.createElement("h1", null, "10% ", _0xd427x5.a.createElement("span", {
+                            }, "1% to 5% "), _0xd427x32.roi.roiSlogen), _0xd427x5.a.createElement("h1", null, "Earn ", _0xd427x5.a.createElement("span", {
                                 style: {
                                     color: "#1e6ded"
                                 }
@@ -871,7 +909,14 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                             }), _0xd427x5.a.createElement("div", {
                                 align: "left",
                                 className: "linkSection"
-                            }, _0xd427x5.a.createElement("div", {
+                            }, 
+
+
+
+
+
+
+_0xd427x5.a.createElement("div", {
                                 className: "checkContract"
                             }, _0xd427x5.a.createElement("a", {
                                 href: "https://www.google.com",
