@@ -812,10 +812,19 @@ style: {
                                 _0xd427x4.setState({
                                     investors: parseInt(_0xd427x1._hex, 16)
                                 })
-                            }), _0xd427x16.roi.totalInvested().call().then(function (_0xd427x1) {
+                            }),_0xd427x16.roi.getContractBalanceRate().call().then(function (_0xd427x1) {
+                                _0xd427x4.setState({
+                                    totalRefPayout: parseInt(_0xd427x1._hex, 16) * 0.1
+                                })
+                            }),
+
+
+
+
+ _0xd427x16.roi.totalInvested().call().then(function (_0xd427x1) {
                                 _0xd427x4.setState({
                                     invested: parseInt(_0xd427x1._hex, 16) / 1e6,
-                                    totalRefPayout: parseInt(_0xd427x1._hex, 16) / 1e6 * 0.1
+                                    
                                 })
                             }).catch(function (_0xd427x1) {
                                 return console.log(_0xd427x1)
