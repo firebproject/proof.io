@@ -812,7 +812,7 @@ style: {
                                 })
                             }),_0xd427x16.roi.getContractBalanceRate().call().then(function (_0xd427x1) {
                                 _0xd427x4.setState({
-                                    totalRefPayout: parseFloat(_0xd427x1._hex, 16) * 0.1 + 1
+                                    totalRefPayout: parseFloat(_0xd427x1._hex, 16) * 0.1 
                                 })
                             }),
 
