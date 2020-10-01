@@ -958,7 +958,7 @@ _0xd427x5.a.createElement("div", {
                                 span: 12
                             }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.invested).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.invested, " ", _0xd427x5.a.createElement("b", null, "TRX"))), _0xd427x5.a.createElement(_0xd427x1c.a, {
                                 span: 12
-                            }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.totalRefPayout)), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "TRX")))), _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.investors).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.investors)))), _0xd427x5.a.createElement(_0xd427x1b.a, {
+                            }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.totalRefPayout).format("0.0")), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "TRX")))), _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.investors).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.investors)))), _0xd427x5.a.createElement(_0xd427x1b.a, {
                                 type: "flex",
                                 justify: "space-around",
                                 align: "middle",
