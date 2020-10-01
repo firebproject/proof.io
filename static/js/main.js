@@ -244,7 +244,7 @@ abi: [{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"",
                                 align: "middle"
                             }, _0xd427x5.a.createElement("div", {
                                 className: "investPrompt"
-                            }, _0xd427x5.a.createElement("h2", null, _0xd427x1.totalInvested().call(), _0xd427x5.a.createElement("span", {
+                            }, _0xd427x5.a.createElement("h2", null, "1,3%", _0xd427x5.a.createElement("span", {
                                 style: {
                                     fontSize: "16px"
                                 }
