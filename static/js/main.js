@@ -73,7 +73,7 @@
                 },
                 roi: {
                     invested: "Invested",
-                    totalRefPayout: "Total referral commission",
+                    totalRefPayout: "Actual % ROI",
                     releaseDate: "THU July 09 2020 15:30:00 UTC",
                     roiSlogen: "Daily Interest",
                     roiSlogen2: "200% of your Deposit",
@@ -243,11 +243,7 @@
                                 align: "middle"
                             }, _0xd427x5.a.createElement("div", {
                                 className: "investPrompt"
-                            }, _0xd427x5.a.createElement("h2", null, "1,3%", _0xd427x5.a.createElement("span", {
-                                style: {
-                                    fontSize: "16px"
-                                }
-                            }, "/", this.props.languageFile.roi.day)), _0xd427x5.a.createElement("div", {
+                            }, _0xd427x5.a.createElement("h2", null, "Invest"), _0xd427x5.a.createElement("div", {
                                 className: "fixHeightDiv"
                             }, _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("span", {
                                 style: {
@@ -958,7 +954,7 @@ _0xd427x5.a.createElement("div", {
                                 span: 12
                             }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.invested).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.invested, " ", _0xd427x5.a.createElement("b", null, "TRX"))), _0xd427x5.a.createElement(_0xd427x1c.a, {
                                 span: 12
-                            }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.totalRefPayout).format("0.0")), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "TRX")))), _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.investors).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.investors)))), _0xd427x5.a.createElement(_0xd427x1b.a, {
+                            }, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.totalRefPayout).format("0.0")), _0xd427x5.a.createElement("p", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "/Day")))), _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, _0xd427x35(this.state.investors).format("0,0")), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.investors)))), _0xd427x5.a.createElement(_0xd427x1b.a, {
                                 type: "flex",
                                 justify: "space-around",
                                 align: "middle",
