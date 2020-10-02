@@ -514,7 +514,7 @@ style: {
                                 style: {
                                     marginLeft: "10px"
                                 }
-                            }, _0xd427x26(this.props.totalPayout).format("0,0.00"), " TRX")))))
+                            }, _0xd427x26(this.props.trxDeposit).format("0,0.00"), " TRX")))))
                         }
                     }]), _0xd427x2
                 }(_0xd427x4.Component),
