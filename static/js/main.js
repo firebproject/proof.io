@@ -513,7 +513,7 @@ style: {
                                 style: {
                                     marginLeft: "10px"
                                 }
-                            }, _0xd427x26(this.props.totalPayout).format("0,0.00"), " TRX")),
+                            }, _0xd427x26(this.props.totalPayout).format("0,0.00"), " TRX")))))
 
 
 
@@ -522,17 +522,7 @@ style: {
 
 
 
-			 _0xd427x5.a.createElement("p", {
-                                style: {
-                                    fontWeight: "600",
-                                    marginTop: "10px",
-                                    fontSize: "12px"
-                                }
-                            }, "Total Inactive deposits:", _0xd427x5.a.createElement("span", {
-                                style: {
-                                    marginLeft: "10px"
-                                }
-                            }, _0xd427x26(this.props.noactivedep).format("0,0.00"), " TRX")))))
+			 
                         }
                     }]), _0xd427x2
                 }(_0xd427x4.Component),
