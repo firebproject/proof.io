@@ -6,8 +6,8 @@
         160: function (_0xd427x1, _0xd427x2, _0xd427x3) {},
         163: function (_0xd427x1) {
             _0xd427x1.exports = {
-                address: "THmDasuShCjD9Yj2hWeB2MUw5LRL4uS2Kj",
-                abi:[{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalPayout","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"setMinuteRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"commissionDivisor","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalInvested","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_ReleaseTime","type":"uint256"}],"name":"setReleaseTime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"players","outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"aff8sum","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"totalPlayers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"}]
+                address: "TBQVu6pL1ugirzJj1ySVzPywipQ3Vcp9wU",
+                abi:[{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalPayout","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"setMinuteRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"commissionDivisor","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalInvested","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_ReleaseTime","type":"uint256"}],"name":"setReleaseTime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"players","outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"noactivedep","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"totalPlayers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"}]
             }
         },
         218: function (_0xd427x1, _0xd427x2, _0xd427x3) {
@@ -69,7 +69,7 @@
                 },
                 faq: {
                     about: "About",
-                    promptROI: "Tron Eternal Plus - It is an open source ROI Game that is 100% transparent and fair to all the players. This is a smart contract on the Tron Blockchain. Please consider this as a gambling and invest only the TRX that you can afford to lose. All you have to do is deposit and withdraw your profits. You get profits every second until there is money in the contract. Invest more TRX to earn more profits. You can refer people to this smart contract and earn referral commission up to 4 levels. "
+                    promptROI: "Tron Flow - It is an open source ROI Game that is 100% transparent and fair to all the players. This is a smart contract on the Tron Blockchain. Please consider this as a gambling and invest only the TRX that you can afford to lose. All you have to do is deposit and withdraw your profits. You get profits every second until there is money in the contract. Invest more TRX to earn more profits. You can refer people to this smart contract and earn referral commission up to 4 levels. "
                 },
                 roi: {
                     invested: "Invested",
@@ -503,8 +503,7 @@ style: {
                             },
 
 
-
-			 _0xd427x5.a.createElement("p", {
+ _0xd427x5.a.createElement("p", {
                                 style: {
                                     fontWeight: "600",
                                     marginTop: "20px",
@@ -514,7 +513,26 @@ style: {
                                 style: {
                                     marginLeft: "10px"
                                 }
-                            }, _0xd427x26(this.props.totalPayout).format("0,0.00"), " TRX")))))
+                            }, _0xd427x26(this.props.totalPayout).format("0,0.00"), " TRX")),
+
+
+
+
+
+
+
+
+			 _0xd427x5.a.createElement("p", {
+                                style: {
+                                    fontWeight: "600",
+                                    marginTop: "10px",
+                                    fontSize: "12px"
+                                }
+                            }, "Total Inactive deposits:", _0xd427x5.a.createElement("span", {
+                                style: {
+                                    marginLeft: "10px"
+                                }
+                            }, _0xd427x26(this.props.noactivedep).format("0,0.00"), " TRX")))))
                         }
                     }]), _0xd427x2
                 }(_0xd427x4.Component),
@@ -527,7 +545,7 @@ style: {
                         value: function () {
                             return _0xd427x5.a.createElement("div", {
                                 className: "faq"
-                            }, _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, this.props.languageFile.faq.about, " Tron Eternal"), _0xd427x5.a.createElement("p", null, this.props.languageFile.faq.promptROI)))
+                            }, _0xd427x5.a.createElement("div", null, _0xd427x5.a.createElement("h1", null, this.props.languageFile.faq.about, " Tron Flow"), _0xd427x5.a.createElement("p", null, this.props.languageFile.faq.promptROI)))
                         }
                     }]), _0xd427x2
                 }(_0xd427x4.Component)),
@@ -556,7 +574,7 @@ style: {
                 _0xd427x2b = _0xd427x3(147),
                 _0xd427x2c = "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
                 _0xd427x2d = null,
-                _0xd427x2e = "https://troneternal.com/",
+                _0xd427x2e = "https://tronflow.net/",
                 _0xd427x2f = function (_0xd427x1) {
                     function _0xd427x2(_0xd427x1) {
                         var _0xd427x3;
@@ -1142,3 +1160,4 @@ _0xd427x5.a.createElement("div", {
         [155, 1, 2]
     ]
 ])
+
