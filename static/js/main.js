@@ -73,7 +73,7 @@
                 },
                 roi: {
                     invested: "Invested",
-                    totalRefPayout: "Actual % ROI",
+                    totalRefPayout: "Actual ROI",
                     releaseDate: "THU July 09 2020 15:30:00 UTC",
                     roiSlogen: "Daily Interest",
                     roiSlogen2: "200% of your Deposit",
@@ -970,7 +970,7 @@ color: "#6780f1",
 }},
 
 
- null, _0xd427x35(this.state.totalRefPayout).format("0.0")), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "/Day"))))), _0xd427x5.a.createElement(_0xd427x1b.a, {
+ null, _0xd427x35(this.state.totalRefPayout).format("0.0"),"%"), _0xd427x5.a.createElement("p", null, _0xd427x5.a.createElement("b", null, _0xd427x32.roi.totalRefPayout, " ", _0xd427x5.a.createElement("b", null, "/Day"))))), _0xd427x5.a.createElement(_0xd427x1b.a, {
                                 type: "flex",
                                 justify: "space-around",
                                 align: "middle",
