@@ -100,7 +100,7 @@
                     trxBalance: "Your Wallet Balance:",
                     yourDividend: "Deposits",
                     withdrawable: "Available to withdraw (25% reinvest if withdraw)",
-                    dividendPrompt1: "3-5 TRX transaction fee will be applied",
+                    dividendPrompt1: "3-5 TRX blockchain transaction fee will be applied",
                     totalPayout: "Total Payout: ",
                     dividendPrompt2: "You can withdraw them even every minute. Minimum deposit is 50 TRX.",
                     withdraw: "Withdraw",
