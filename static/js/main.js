@@ -6,7 +6,7 @@
         160: function (_0xd427x1, _0xd427x2, _0xd427x3) {},
         163: function (_0xd427x1) {
             _0xd427x1.exports = {
-                address: "THH3gybMgBmX4nCBaVnYvQssy28TAVsPpK",
+                address: "TNVFj4HpXQfwWRQVx3VdGJQovNEh7KgtF5",
                 abi:[{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalPayout","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"setMinuteRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"commissionDivisor","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalInvested","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_ReleaseTime","type":"uint256"}],"name":"setReleaseTime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"players","outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"aff8sum","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"totalPlayers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"}]
             }
         },
@@ -480,7 +480,7 @@ style: {
                                     marginLeft: "10px"
                                 }
                             }, _0xd427x5.a.createElement("a", {
-                                href: "https://www.google.com",
+                                href: "https://tronflow.net/tronflow.pdf",
                                 target: "_blank",
                                 rel: "noopener noreferrer"
                             },
@@ -930,10 +930,24 @@ style: {
 _0xd427x5.a.createElement("div", {
                                 className: "checkContract"
                             }, _0xd427x5.a.createElement("a", {
-                                href: "https://www.google.com",
+                                href: "https://tronflow.net/tronflow.pdf",
                                 target: "_blank",
                                 rel: "noopener noreferrer"
-                            }, "HOW IT WORKS")), _0xd427x5.a.createElement("div", {
+                            }, "PDF")),
+
+
+
+
+_0xd427x5.a.createElement("div", {
+                                className: "checkContract",
+				style: {
+                                    marginLeft: "10px"
+                                }
+                            }, _0xd427x5.a.createElement("a", {
+                                href: "https://tronflow.net/tronflowes.pdf",
+                                target: "_blank",
+                                rel: "noopener noreferrer"
+                            }, "PDF ES")), _0xd427x5.a.createElement("div", {
                                 className: "checkContract",
                                 style: {
                                     marginLeft: "10px"
